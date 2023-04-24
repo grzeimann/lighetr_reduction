@@ -3,7 +3,18 @@
 ## Step 1 - Get a TACC account
 To execute reductions in near real-time for LIGHETR observations at the HET you will need a TACC account.  Email grzeimann@gmail.com for help.
 
-## Step 2 - 
+## Step 2 - Open a terminal
+```
+ssh username@stampede2.tacc.utexas.edu
+cd $HOME
+ln -s $WORK work-stampede2
+module load python3
+pip3 install astropy --user
+pip3 install seaborn --user
+pip3 install specutils --user
+pip3 install scikit-learn --user
+pip3 install photutils=='0.7.2' --user
+```
 Once you have an account, you can go start visualization portal in a browser: https://vis.tacc.utexas.edu/jobs/
 
 <p align="center">
