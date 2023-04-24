@@ -1,7 +1,9 @@
 # LIGHETR Team HET Reduction Manual
 
+## Step 1 - Get a TACC account
 To execute reductions in near real-time for LIGHETR observations at the HET you will need a TACC account.  Email grzeimann@gmail.com for help.
 
+## Step 2 - 
 Once you have an account, you can go start visualization portal in a browser: https://vis.tacc.utexas.edu/jobs/
 
 <p align="center">
