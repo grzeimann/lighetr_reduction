@@ -1,9 +1,11 @@
 # LIGHETR Team HET Reduction Manual
 
-## Step 1 - Get a TACC account
+## Initial TACC SETUP
+
+### Step 1 - Get a TACC account
 To execute reductions in near real-time for LIGHETR observations at the HET you will need a TACC account.  Email grzeimann@gmail.com for help.
 
-## Step 2 - Open a terminal
+### Step 2 - Set TACC Python Environment
 ```
 ssh username@stampede2.tacc.utexas.edu
 cd $HOME
@@ -15,6 +17,11 @@ pip3 install specutils --user
 pip3 install scikit-learn --user
 pip3 install photutils=='0.7.2' --user
 ```
+
+## VIRUS Reductions
+
+## LRS2 Reductions
+
 Once you have an account, you can go start visualization portal in a browser: https://vis.tacc.utexas.edu/jobs/
 
 <p align="center">
