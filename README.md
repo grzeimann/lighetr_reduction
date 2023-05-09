@@ -26,6 +26,17 @@ To start VIRUS reductions we'll need an idev session
 idev -N 1 -m 120 -p skx-dev
 ```
 
+After creating the session, we can examine what observations have been taken and if our target is on TACC yet.
+
+```
+python /work/03730/gregz/maverick/Remedy/get_objects.py 20230509 virus
+```
+
+Finally, we can begin a reduction
+```
+python3 /work/03730/gregz/maverick/Remedy/quick_reduction.py 20230509 9 34 /work/03730/gregz/maverick/output/20230301_20230401.h5 -nd 3 -fp /work/03730/gregz/maverick/fplaneall.txt -nD -q -mc
+```
+
 ## LRS2 Reductions
 
 Once you have an account, you can go start visualization portal in a browser: https://vis.tacc.utexas.edu/jobs/
