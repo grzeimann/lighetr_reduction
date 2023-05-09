@@ -20,6 +20,12 @@ pip3 install photutils=='0.7.2' --user
 
 ## VIRUS Reductions
 
+To start VIRUS reductions we'll need an idev session
+
+```
+idev -N 1 -m 120 -p skx-dev
+```
+
 ## LRS2 Reductions
 
 Once you have an account, you can go start visualization portal in a browser: https://vis.tacc.utexas.edu/jobs/
