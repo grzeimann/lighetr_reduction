@@ -16,6 +16,8 @@ pip3 install seaborn --user
 pip3 install specutils --user
 pip3 install scikit-learn --user
 pip3 install photutils=='0.7.2' --user
+cd /work/NUMBER/NAME/stampede2
+git clone https://github.com/grzeimann/LRS2Multi.git
 ```
 
 ## VIRUS Reductions
